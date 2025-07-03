@@ -1,0 +1,53 @@
+.barra-vertical {
+  width: 2px;            /* Largura fina */
+  height: 10em;         /* Altura da barra */
+  background-color: #ffffff; /* Cor da barra */
+  display: inline-block;
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+}
+
+#welcome{
+
+    margin: 12em 0;
+ & .allwelcome{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+
+    justify-items: end;
+    align-items: center;
+    & > img {
+       /* position: absolute;*/
+        padding-top: 25em;
+        
+        width: 100%;
+        align-items: end;
+        height: auto;
+        grid-column: 2 / 2;
+  justify-self: start;
+ 
+    }
+ }
+
+
+    & .container__all__welcome{
+        gap: 1em;
+       
+
+        & > .container__text__welcome span{
+            color: var(--titles-color);
+        }
+    }
+
+
+
+    & .container__buttons__welcome{
+       
+    }
+}

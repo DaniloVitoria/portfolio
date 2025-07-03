@@ -1,13 +1,13 @@
 #navbar {
 
  
-position: sticky;
+  position: sticky;
   top: 0;
   z-index: 999;
   animation: fade-in linear both;
   animation-timeline: view();
   animation-range: entry 0% cover 100%;
-    padding: 0 7em;
+    
 
 
 
@@ -32,14 +32,14 @@ position: sticky;
             
             & .containerlinks{
 
-                grid-template-columns:repeat(2, 1fr);
-                padding: 1.2em 0;
+                justify-content: space-around;
+                gap: 1em;
 
                 & .containerinfo{
                     gap: 3em;
                     align-items: center;
                     font-size: var(--h3-fs);
-                    white-space: nowrap;
+                    
 
                     & h3{
                         color: var(--h3-default);
@@ -61,11 +61,12 @@ position: sticky;
 
 
                 & .containerlinks__spans{
-                    grid-template-columns: repeat(4, 10em);
+                   gap: 1em;
                     align-items: center;
                     justify-items:end;
                     font-size: var(--span-fs);
                     color: var(--span-color);
+
                 }
             }
 
@@ -119,14 +120,16 @@ position: sticky;
 @media (width <= 70em) {
   #navbar header nav .containerlinks .containerlinks__spans {
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+  
   }
 
 
-  #navbar header nav .containerlinks{
-    gap: 4em;
+  #navbar header nav .containerlinks .containerinfo{
+    gap:0.2em;
   }
-
+.containerinfo{
+  
+}
 
   #navbar{
     
