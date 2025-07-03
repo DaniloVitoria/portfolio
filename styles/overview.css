@@ -4,11 +4,98 @@
 #overview{
 
 
+   
 
-
-    .containeroverview{
+    & .containeroverview, .content{
         margin: 10em 10em;
+        animation: fade linear both;
+        animation-timeline: view(500px 10px);
     }
 
 
+
+
+
+    
+
+}.tracks {
+    animation: fade linear both;
+     animation-timeline: view(500px 10px);
+  width: 100%;
+  overflow: hidden;
+  
+   mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 10% 90%,
+        transparent
+    );
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 19s  linear infinite;
+  min-width: fit-content;
+  gap: 2em;
+}
+
+.slide-track img {
+  width: 10em;
+  height: auto;
+  margin: 0 2em;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+@keyframes scroll-horizontalreverse{
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade {
+
+    0% {
+        opacity: 0;
+        scale: .8;
+    }
+
+    
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
 }

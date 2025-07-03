@@ -4,6 +4,7 @@
   background-color: var(--slash-bg); /* Cor da barra */
   display: inline-block;
   margin-bottom: 2em;
+  margin-left: 1em;
 }
 
 .containerbutton button{
@@ -92,6 +93,12 @@
    justify-content: start;   /* Centraliza na horizontal */
   align-items: center;       /* Centraliza na vertical */
 
+
+
+  & .text h1{
+    font-size: var(--h1-fs-small);
+   
+  }
 }
 
 .container__imageaside{
