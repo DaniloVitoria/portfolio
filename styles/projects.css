@@ -1,0 +1,309 @@
+#projects{
+
+    margin: 15em 0;
+
+
+    & .opening{
+        animation: fade linear both;
+    animation-timeline: view(var(--end) var(--beginig));
+    margin: 3em 6em;
+    
+
+    & h1{
+        font-size: var(--h1-fs);
+    }
+    }
+
+}
+
+.container__projects{
+
+
+    animation: fadecard linear both;
+    animation-timeline: view(var(--end-an) var(--beginig-an));
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+
+
+
+
+    justify-content: right;
+    align-items: center;
+
+
+
+
+    & .container__angular__contents{
+        grid-column: 2/2;
+        align-self: flex-start;
+    }
+    
+}
+
+
+
+.express{
+
+
+
+
+    background-color: var( --pj-bk-color);
+    border-radius: 10px;
+    box-shadow: 0 20px 50px #172440;
+
+
+    
+
+
+
+
+    & .container__elements__express{
+
+        padding: 2em;
+    }
+
+    & header img{
+        width: 3em;
+    }
+
+
+    & header{
+        justify-content: left;
+        align-items: center;
+        gap: 1em;
+
+       
+    }
+
+
+    & main span  img{
+        width: 2em;
+        height: 1.7em;
+        object-fit: contain;
+        background-image: "./assets/projectcards/flame.png";
+        object-fit:scale-down;
+    }
+
+    & main p span  {
+        
+        
+        
+        
+    }
+
+    & main p{
+        padding-top: 1em;
+        
+    }
+    
+
+
+
+
+    & footer .ball{
+        width: 2em;            /* Largura fina */
+  height: 2em;         /* Altura da barra */
+  background-color: var(--slash-bg); /* Cor da barra */
+  border-radius: 150px;
+  display: inline-block;
+  
+    }
+}
+
+
+.container__footer{
+align-items: center;
+gap: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.angular{
+ box-sizing:border-box;
+ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+    background-color: var( --pj-bk-color);
+    border-radius: 10px;
+    box-shadow: 0 20px 50px #172440;
+
+  min-width: 300px;
+   
+
+    & img{
+
+
+ box-sizing:content-box;
+  
+    height: 100%;
+    width: auto;
+
+    max-width: 100%;
+  min-width: inherit;
+    min-height: inherit;
+    background-size: fill;     /* Mostra a imagem inteira */
+  background-position: center;  /* Centraliza */
+  background-repeat: no-repeat; /* Não repete */
+
+ border-radius: 10px;
+
+
+
+    }
+ 
+   
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container__projects{
+
+    justify-items: center;
+    width: 100%;
+}
+
+/* primeira forma que eu fiz
+.express{
+    width: 70%;
+    height: auto;
+}
+
+.angular{
+   width: 70%;
+height: auto;
+}
+*/
+
+.express,
+.angular {
+  width: 70%;
+  min-height: 400px; /* ajuste conforme necessário */
+}
+
+
+.showimage{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadecard {
+
+    0% {
+        opacity: 0.85;
+        scale: .8;
+    }
+
+    
+
+    100%{
+        opacity: 3;
+        scale: 1;
+    }
+}
+
+
+
+
+
+
+@keyframes fade {
+
+    0% {
+        opacity: 0;
+        scale: .8;
+    }
+
+    
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+@media (width <= 72.3125em){
+
+    #projects{
+.container__projects {
+       display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+
+       
+            & .angular{
+                grid-row: 3/4;
+            }
+
+            & .container__angular__contents{
+        grid-column: 1/1;
+        grid-row: 4/5;
+        align-self: flex-start;
+    }
+
+}
+
+}
+    
+
+}

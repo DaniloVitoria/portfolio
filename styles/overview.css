@@ -2,14 +2,20 @@
 
 
 #overview{
-
+& .containeroverview p{
+  font-size: 1.5rem;
+}
 
    
 
     & .containeroverview, .content{
         margin: 10em 10em;
         animation: fade linear both;
-        animation-timeline: view(500px 10px);
+       animation-timeline: view(var(--end) var(--beginig));
+
+        & h1{
+          font-size: 2.7rem;
+        }
     }
 
 
@@ -18,41 +24,7 @@
 
     
 
-}.tracks {
-    animation: fade linear both;
-     animation-timeline: view(500px 10px);
-  width: 100%;
-  overflow: hidden;
-  
-   mask-image: linear-gradient(
-        to right,
-        transparent,
-        #000 10% 90%,
-        transparent
-    );
 }
-
-.slider {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.slide-track {
-  display: flex;
-  animation: scroll 10s  linear infinite both;
-  min-width: fit-content;
-  gap: 1em;
-}
-
-.slide-track img {
-  width: 10em;
-  height: auto;
-  margin: 0 2em;
-  flex-shrink: 0;
-}
-
-
 
 
 
@@ -65,7 +37,7 @@
 
 .tracks2 {
     animation: fade linear both;
-     animation-timeline: view(500px 10px);
+     animation-timeline: view(var(--end) var(--beginig));
   width: 100%;
   overflow: hidden;
   
@@ -102,15 +74,36 @@
 
 
 
+@media (width <= 70em){
+
+#overview{
+
+& .containeroverview p{
+  font-size: 1rem;
+}
+   
+
+    & .containeroverview, .content{
+        margin: 4em 4em;
 
 
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-200%);
-  }
+
+        & h1{
+          font-size: 1.9rem;
+        }
+        
+    }
+
+
+
+
+
+    
+
+}
+
+
+
 }
 
 

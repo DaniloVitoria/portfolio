@@ -18,6 +18,52 @@
     --titles-color: #6D74F9;
     --button-color: #6D74F9;
     --slash-bg: #4325EB;
+
+
+
+
+
+    /*Color cards of project*/
+
+    --pj-bk-color: #171D2A;
+
+
+
+
+
+
+
+
+
+
+    /*Animation fade cards project*/
+
+    --end-an:37.5em; 
+    --beginig-an: 0.3125em;
+
+
+
+/*Animation fade others*/
+
+    --end:31.25em; 
+    --beginig: 0.625em;
+
+
+
+    @keyframes fade {
+
+    0% {
+        opacity: 0;
+        scale: .8;
+    }
+
+    
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
 }
 
 
