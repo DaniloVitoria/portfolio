@@ -43,7 +43,7 @@
 
                     & h3{
                         color: var(--h3-default);
-
+                        font-size: 1.5rem;
 
 
                         & span{
@@ -67,6 +67,10 @@
                     font-size: var(--span-fs);
                     color: var(--span-color);
 
+
+                    & span{
+                      font-size: 1.5rem;
+                    }
                 }
             }
 
@@ -120,18 +124,45 @@
 @media (width <= 70em) {
   #navbar header nav .containerlinks .containerlinks__spans {
     grid-template-columns: 1fr 1fr;
+
+    & span{
+      font-size: 0.9rem;
+    }
   
   }
 
 
   #navbar header nav .containerlinks .containerinfo{
     gap:0.2em;
+
+    & img {
+      width: 20%;
+      height: auto;
+    }
+
+     & h3{
+                        color: var(--h3-default);
+                        font-size: 1.2rem ;
   }
 .containerinfo{
   
 }
 
   #navbar{
+   
     
+
+
+
+   
+
+                    
+                }
   }
+
+
+
+  
+
+  
 }

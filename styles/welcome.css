@@ -5,6 +5,7 @@
   display: inline-block;
   margin-bottom: 2em;
   margin-left: 1em;
+  margin-right: 1em;
 }
 
 .containerbutton button{
@@ -16,6 +17,8 @@
     height: 3.4em;
     width: 14em;
 }
+
+
 
 .container__imageaside{
     width: 60%;
@@ -43,6 +46,7 @@
 
   & .text  span{
     color: var(--titles-color);
+    white-space: nowrap;
   }
 }
 
@@ -68,13 +72,25 @@
 
 .containerbutton{
   gap: 1em;
+  justify-content: center;
 }
 
 @media(width <= 70em){
+.containerbutton{
+  gap: 0.5em;
+  
+}
 
 
-
-
+.containerbutton button{
+  margin-top: 0.3em;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    height: 2.4em;
+    width: 12em;
+}
 
 
 
