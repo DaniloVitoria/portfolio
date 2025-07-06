@@ -100,7 +100,7 @@ margin: 0.2em 2em;
     & .educationcontent h2{
 
         
-        font-size: var(--h2-fs-sm);
+        font-size: var(--h2-fs-m);
     }
 
 }

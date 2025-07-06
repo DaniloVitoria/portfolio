@@ -12,14 +12,18 @@
     --h3-fs: 1rem;
     --h2-fs: 1.6rem;
     --h1-fs: 3rem;
-    --h1-fs-small: 1.6rem;
+    
 
 
-    /*Font-size small*/
+    /*Font-size medium*/
     --h2-fs-sm: 1.2rem;
+--h1-fs-m: 1.6rem;
+    /*font-size small*/
+    --h2-fs-small: 0.5rem;
+--h1-fs-small: 1rem;
 
-
-
+/*extra small*/
+--h1-fs-small2: 0.6rem;
 
     --span-color:#F2D1D1;
     --h3-default:#F2D1D1;
