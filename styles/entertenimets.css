@@ -1,0 +1,187 @@
+.containerall__enterteniments{
+
+
+
+   
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+
+
+
+
+
+.container2{
+
+
+
+ 
+}
+
+
+.esphere{
+       width: 29.3125em;            /* Largura fina */
+  height: 28.625em;         /* Altura da barra */
+  border-radius: 50%;
+  background-color: var(--slash-bg); /* Cor da barra */
+  display: inline-block;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  align-self: center;
+  
+}
+
+.person__jill{
+    overflow: hidden;
+    
+}
+
+.person__jill img{
+
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1{
+    
+.square{
+
+    width: 45em;            /* Largura fina */
+  height: 20em;         /* Altura da barra */
+  background-color: #212736; /* Cor da barra */
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  z-index: 0;
+  position: relative;
+
+  box-shadow: 0 20px 50px #242A38 ;
+}
+  
+}
+
+
+.cardsoneperone{
+
+    & .cardgame1 img{
+         width: 34%;
+        position: absolute;
+        z-index: 1;
+        transform: rotate(-15deg);
+         border-radius: 15px;
+    }
+
+    & .cardgame2 img{
+        width: 34%;
+        height: auto;
+       position: absolute;
+      z-index: 2;
+      left: 10em;
+        transform: rotate(-15deg);
+         border-radius: 15px;
+    }
+
+
+     & .cardgame3 img{
+        width: 34%;
+        height: auto;
+       position: absolute;
+
+        z-index: 3;
+      left: 17em;
+        transform: rotate(-15deg);
+         border-radius: 15px;
+    }
+
+
+
+     & .cardgame4 img{
+        width: 34%;
+        height: auto;
+       position: absolute;
+
+            z-index: 4;
+      left: 25em;
+      top: 2em;
+        transform: rotate(-15deg);
+        border-radius: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.cardsoneperone{
+
+    & .cardgame1 img:hover{
+         width: 36%;
+         
+     
+        cursor: pointer;
+    }
+
+    & .cardgame2 img:hover{
+        width: 36%;
+        height: auto;
+       
+         
+        cursor: pointer;
+    }
+
+
+     & .cardgame3 img:hover{
+        width: 36%;
+        height: auto;
+        
+         
+        cursor: pointer;
+    }
+
+
+
+     & .cardgame4 img:hover{
+        width: 36%;
+        height: auto;
+       
+        cursor: pointer;
+            user-select: none;
+      
+    }
+}
+
+
+
+
+
