@@ -1,5 +1,26 @@
-.container__education{
+#education{
 
+    & .opening , .educationimage, .educationcontent h2{
+        animation: fade linear both;
+      animation-timeline: view(var(--end) var(--beginig));
+    }
+
+
+    & .opening{
+        margin: 0 6em 0 6em;
+      
+
+        & h1{
+  font-size: var(--h1-fs);
+        }
+    }
+}
+
+
+
+
+.container__education{
+margin: 3em 6em;
   
     grid-template-rows: repeat(2, 1fr);
 
@@ -14,8 +35,73 @@ align-items: center;
     .educationimage img{
         max-width: 100%;
     }
+
+
+
+    & .educationcontent h2{
+
+        text-align: left;
+        font-size: var(--h2-fs);
+    }
 }
 
 
 
 
+ @keyframes fade {
+
+    0% {
+        opacity: 0;
+        scale: .8;
+    }
+
+    
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+@media (width <= 70em){
+
+#education{
+  & .opening{
+        margin: 0 2em ;
+      
+
+        & h1{
+  font-size: var(--h1-fs);
+        }
+    }
+
+
+    & .container__education{
+margin: 0.2em 2em;
+
+
+
+
+.educationimage img{
+        max-width: 95%;
+    }
+
+
+
+    & .educationimage{
+        align-self:last baseline;
+    }
+    }
+
+
+    & .educationcontent h2{
+
+        
+        font-size: var(--h2-fs-sm);
+    }
+
+}
+}

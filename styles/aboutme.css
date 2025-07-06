@@ -1,0 +1,29 @@
+
+#image__transiction{
+
+
+
+
+    grid-template-rows: repeat(6, 1fr);
+
+    justify-items: center;
+
+
+
+
+    background-image:  url("../assets/4k.png");
+    width: inherit;
+    height: 100%;
+   
+  
+  background-size: 100%;
+  box-sizing: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.transiction__content:nth-child(1){
+    justify-items: center;
+}

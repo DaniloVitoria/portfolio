@@ -6,12 +6,20 @@
 
 
 
-    /*Font-size*/
+    /*Font-size large*/
     --span-fs: 1rem;
 
     --h3-fs: 1rem;
-    --h1-fs: 3em;
-    --h1-fs-small: 1.6em;
+    --h2-fs: 1.6rem;
+    --h1-fs: 3rem;
+    --h1-fs-small: 1.6rem;
+
+
+    /*Font-size small*/
+    --h2-fs-sm: 1.2rem;
+
+
+
 
     --span-color:#F2D1D1;
     --h3-default:#F2D1D1;
@@ -40,7 +48,7 @@
 
     --end-an:37.5em; 
     --beginig-an: 0.3125em;
-
+    
 
 
 /*Animation fade others*/
@@ -99,6 +107,11 @@ ol, ul {
 span{
     color: #F2D1D1;
     max-width: 100%
+}
+
+
+.h1, h2, h3, p, span {
+     font-family: "Poppins", sans-serif;
 }
 
 
