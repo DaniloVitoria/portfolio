@@ -1,0 +1,137 @@
+
+
+.container__courses{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1__courses{
+
+   & .image__container1__courses{
+    justify-content: center;
+    display: flex;
+    }
+
+    .image__container1__courses img{
+ 
+        border-radius: 50%;
+        width: 20%;
+      
+    }
+}
+
+.content__course1{
+
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.container1__courses__text{
+
+    & .title__course1{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*container 2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2__courses{
+
+   & .image__container2__courses{
+    justify-content: center;
+    display: flex;
+    }
+
+    .image__container2__courses img{
+ 
+        border-radius: 50%;
+        width: 20%;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.container2__courses__text{
+  
+
+    & .title__course2{
+        text-align: center;
+    }
+
+
+}
+
+
+.content__course2{
+
+    
+    text-align: center;
+}

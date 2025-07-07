@@ -39,9 +39,7 @@
 
 
   display: inline-block;
-  margin-bottom: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
+ 
   align-self: center;
   
   
@@ -60,10 +58,14 @@
 
     width: 100%;
     height: 100%;
+    
 }
 
 
+.person__jill {
 
+    margin: 3em 0;
+}
 
 
 
@@ -86,7 +88,7 @@
 .square{
 
     width: 45em;            /* Largura fina */
-  height: 20em;         /* Altura da barra */
+  height: 23em;         /* Altura da barra */
   background-color: #212736; /* Cor da barra */
   border-radius: 15px;
   display: inline-block;
@@ -106,8 +108,8 @@
 .content__text__cardgames{
 
     animation: fade linear both;
-    animation-timeline: view(var(--end) var(--beginig));
-
+        animation-timeline: view(var(--end) var(--beginig));
+        
     margin: 0 0 15em 0;
 
     & h1{
@@ -118,7 +120,7 @@
     }
 
     & p {
-        margin: 0 0 0 2em;
+        margin: 3em 0 0 2em;
         animation: fade linear both;
         animation-timeline: view(var(--end) var(--beginig));
     }
@@ -244,5 +246,354 @@
         opacity: 1;
         scale: 1;
     }
+
+}
+
+
+@media (width <= 83.625em){
+
+
+.container1{
+    
+.square{
+
+    width: 29em;            /* Largura fina */
+  height: 17em;         /* Altura da barra */
+  background-color: #212736; /* Cor da barra */
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  
+  z-index: 0;
+  position: relative;
+
+  box-shadow: 0 20px 50px #242A38 ;
+}
+  
+#title_games__mobile h2{
+    text-align: center;
+    color: var(--h2-card-cl);
+}
+
+}
+
+.container__cardgames{
+   justify-self: center;
+    
+}
+
+
+
+#enterteniments{
+
+.cardsoneperone{
+
+   
+    & .cardgame2 img{
+        
+      
+       left: 4em;
+     
+    }
+
+
+     & .cardgame3 img{
+        
+      
+ left: 7em;
+      
+      
+       
+    }
+
+
+
+     & .cardgame4 img{
+        
+       
+  top: 1em;
+           
+        left: 13em;
+     
+   
+    }
+}
+
+
+& .cardgame1 img, .cardgame2 img, .cardgame3 img, .cardgame4 img {
+     width: 42%;
+        height: auto;
+}
+
+
+& .cardgame1 img:hover , .cardgame2 img:hover , .cardgame3 img:hover , .cardgame4 img:hover {
+     width: 44%;
+       
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .containerall__enterteniments{
+
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+
+
+
+
+.background__sphere{
+       width: 17.3125em;            /* Largura fina */
+  height: 15.625em;         /* Altura da barra */
+  border-radius: 50%;
+  background:linear-gradient(to bottom, #6D74F9 10%, #eb1d20 80%); 
+  
+    box-shadow:   0 20px 30px  #eb1d20, 
+                   0 -20px 25px #6D74F9;
+
+
+  display: inline-block;
+  margin-bottom: 2em;
+  
+ 
+  align-self: center;
+  margin-top: 15em;
+  
+}
+
+
+
+
+
+
+    .person__jill img:hover{
+    
+    width: 82%;
+    height: 82%;
+    
+}
+
+.person__jill img{
+
+    width: 80%;
+    height: 80%;
+    
+}
+
+
+
+.person__jill {
+
+    margin: 3em 0;
+}
+}
+
+
+
+
+
+@media (width <= 36.4375em){
+
+
+
+.container1{
+    
+
+
+
+    .content__text__cardgames{
+         & h1{
+        font-size: var(--h1-fs-m);
+       
+        margin: 1em 0 0.3em 0;
+        
+    }
+
+    & p {
+        margin: 3em 0 0 2em;
+        animation: fade linear both;
+        animation-timeline: view(var(--end) var(--beginig));
+    }
+    }
+
+
+
+
+
+
+.square{
+
+    width: 15em;            /* Largura fina */
+  height: 6.5em;         /* Altura da barra */
+  background-color: #212736; /* Cor da barra */
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 2em;
+  
+  
+  z-index: 0;
+  position: relative;
+ left: -2em;
+  box-shadow: 0 20px 50px #242A38 ;
+}
+  
+
+
+
+#title_games__mobile {
+    text-align: left;
+   
+    display: block;
+}
+
+
+#title_games__mobile h2{
+   text-align: left;
+   
+   font-size: var(--h2-fs-sm);
+}
+
+}
+
+.container__cardgames{
+  
+    
+}
+
+
+
+#enterteniments{
+
+.cardsoneperone{
+
+   
+    & .cardgame2 img{
+        
+      
+       left: 4em;
+     
+    }
+
+
+     & .cardgame3 img{
+        
+      
+ left: 7em;
+      
+      
+       
+    }
+
+
+
+     & .cardgame4 img{
+        
+       
+  top: 1em;
+           
+        left: 10em;
+     
+   
+    }
+}
+
+
+& .cardgame1 img, .cardgame2 img, .cardgame3 img, .cardgame4 img {
+     width: 30%;
+        height: auto;
+}
+
+
+& .cardgame1 img:hover , .cardgame2 img:hover , .cardgame3 img:hover , .cardgame4 img:hover {
+     width: 32%;
+       
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .containerall__enterteniments{
+
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+
+
+
+
+.background__sphere{
+       width: 9.3125em;            /* Largura fina */
+  height: 8.625em;         /* Altura da barra */
+  border-radius: 50%;
+  background:linear-gradient(to bottom, #6D74F9 10%, #eb1d20 80%); 
+  
+    box-shadow:   0 20px 30px  #eb1d20, 
+                   0 -20px 25px #6D74F9;
+
+
+  display: inline-block;
+  margin-bottom: 2em;
+  
+ 
+  align-self: center;
+  margin-top: 15em;
+  
+}
+
+
+
+
+
+
+    .person__jill img:hover{
+    
+    width: 82%;
+    height: 82%;
+    
+}
+
+.person__jill img{
+
+    width: 80%;
+    height: 80%;
+    
+}
+
+
+
+.person__jill {
+
+    margin: 3em 0;
+}
 
 }

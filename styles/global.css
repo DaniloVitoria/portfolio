@@ -41,7 +41,8 @@
 
 
 
-
+    /*Cards game*/
+    --h2-card-cl:  #5E5E5E;
 
 
 
@@ -84,7 +85,9 @@
 
   
  
-
+html{
+      /*scroll-behavior: smooth;*/
+}
 
 
 
@@ -123,7 +126,9 @@ span{
 .desktop-only{
     display: none ;
 }
-
+.mobile-only{
+    display: none;
+}
 
 @media (width >= 70em){
     .desktop-only{
@@ -131,4 +136,13 @@ span{
     }
 }
 
+
+
+@media (width <= 83.625em){
+
+    .mobile-only{
+        display: block;
+    }
+
+}
 

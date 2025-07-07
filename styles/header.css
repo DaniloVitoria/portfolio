@@ -48,7 +48,7 @@
 
                         & span{
                         color: var(--titles-color);
-
+                          
 
                     }
                     }
@@ -68,8 +68,12 @@
                     color: var(--span-color);
 
 
-                    & span{
+                    & a{
                       font-size: 1.5rem;
+                      cursor: pointer;
+ color: var(--span-color);
+                       text-decoration: none; /* remove o sublinhado */
+                       
                     }
                 }
             }
