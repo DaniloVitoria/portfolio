@@ -128,7 +128,7 @@
 
 
 .container__cardgames{
-    margin: 2em 0 0em 5em;
+    margin: 0 1em 0 1em;
     
 }
 
@@ -429,6 +429,7 @@
         margin: 3em 0 0 2em;
         animation: fade linear both;
         animation-timeline: view(var(--end) var(--beginig));
+        text-align: left;
     }
     }
 
@@ -449,7 +450,7 @@
   
   z-index: 0;
   position: relative;
- left: -2em;
+ 
   box-shadow: 0 20px 50px #242A38 ;
 }
   
@@ -457,14 +458,14 @@
 
 
 #title_games__mobile {
-    text-align: left;
+    left: -1em;
    
     display: block;
 }
 
 
 #title_games__mobile h2{
-   text-align: left;
+   
    
    font-size: var(--h2-fs-sm);
 }

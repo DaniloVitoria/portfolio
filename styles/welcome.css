@@ -8,14 +8,13 @@
   margin-right: 1em;
 }
 
-.containerbutton button{
+.containerbutton a{
   margin-top: 0.3em;
     border-radius: 15px;
     border: none;
     background-color: var(--button-color);
     color: white;
-    height: 3.4em;
-    width: 14em;
+    padding: 1em 1.6em;
 }
 
 

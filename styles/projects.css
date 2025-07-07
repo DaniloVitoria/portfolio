@@ -86,10 +86,10 @@
         object-fit:scale-down;
     }
 
-    & main p span  {
+    & main   p{
         
         
-        
+        text-align: left;
         
     }
 
