@@ -21,9 +21,12 @@
     /*font-size small*/
     --h2-fs-small: 0.5rem;
 --h1-fs-small: 1rem;
+--h3-fs-m: 0.6rem;
 
 /*extra small*/
 --h1-fs-small2: 0.6rem;
+--h3-fs-small: 0.4rem;
+
 
     --span-color:#F2D1D1;
     --h3-default:#F2D1D1;
@@ -73,7 +76,7 @@
   
  
 html{
-      /*scroll-behavior: smooth;*/
+      scroll-behavior: smooth;
 }
 
 

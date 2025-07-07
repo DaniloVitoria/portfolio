@@ -69,14 +69,14 @@ grid-template-rows: repeat(3, 1fr);
     .transiction__content:nth-child(1){
     justify-items: center;
 font-size: var(--h1-fs-small2);
-    grid-row: 1/1;
+    grid-row: 2/2;
 }
 
 
 .description{
     justify-items: center;
 
-    grid-row: 2/2;
+    grid-row: 3/3;
     font-size: var(--h2-fs-small);
 }
 }
@@ -99,14 +99,14 @@ grid-template-rows: repeat(5, 1fr);
     .transiction__content:nth-child(1){
     justify-items: center;
     font-size: var(--h1-fs-small);
-    grid-row: 1/1;
+    grid-row: 2/2;
 }
 
 
 .description{
     justify-items: center;
 
-    grid-row: 2/2;
+    grid-row: 3/3;
     font-size: var(--h2-fs-small);
 }
 }
@@ -130,14 +130,14 @@ grid-template-rows: repeat(5, 1fr);
     .transiction__content:nth-child(1){
     justify-items: center;
         font-size: var(--h1-fs-m);
-    grid-row: 1/1;
+    grid-row: 2/2;
 }
 
 
 .description{
     justify-items: center;
 
-    grid-row: 2/2;
+    grid-row: 3/3;
     font-size: var(--h2-fs-small);
 }
 

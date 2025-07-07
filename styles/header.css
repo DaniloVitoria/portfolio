@@ -1,3 +1,7 @@
+#colorwhite{
+  color: white;
+}
+
 #navbar {
 
  
@@ -149,21 +153,26 @@
                         font-size: 1.2rem ;
   }
 .containerinfo{
-  
+   font-size: var(--h3-fs-small);
 }
 
-  #navbar{
-   
-    
-
-
-
-   
-
-                    
-                }
+ 
   }
 
+  #nav {
+
+
+    & header{
+
+
+      & nav{
+& .containerlinks__spans{
+  gap: 3em;
+}
+
+      }
+    }
+  }
 
 
   

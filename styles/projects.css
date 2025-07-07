@@ -105,7 +105,7 @@
     & footer .ball{
         width: 2em;            /* Largura fina */
   height: 2em;         /* Altura da barra */
-  background-color: var(--slash-bg); /* Cor da barra */
+  background-color: #bfff49; /* Cor da barra */
   border-radius: 150px;
   display: inline-block;
   
@@ -303,7 +303,43 @@ height: auto;
 
 }
 
-}
-    
 
+.express,
+.angular {
+  width: 90%;
+  min-height: 400px; /* ajuste conforme necessário */
+}
+
+
+
+
+.express{
+    & .container__elements__express{
+
+        padding: 2em;
+
+
+        & main{
+
+            text-align: left;
+           
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+.container__projects{
+
+& .container__angular__contents h1{
+        text-align: center;
+    }
+
+}
 }
