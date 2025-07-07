@@ -1,3 +1,25 @@
+@import url(./animation.css);
+
+
+
+
+
+.title__course1 , .title__course2  ,.content__course1, .content__course2{
+    animation: fade linear both;
+    animation-timeline: view(var(--end) var(--beginig));
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .container__courses{
@@ -41,11 +63,16 @@
 
 .content__course1{
 
-    
+   
     text-align: center;
 }
 
 
+.content__course1 h1{
+
+   
+    font-size: var(--h1-fs);
+}
 
 
 
@@ -130,8 +157,64 @@
 }
 
 
+.title__courses{
+    margin: 5em 0 10em 0;
+      animation: fade linear both;
+    animation-timeline: view(var(--end) var(--beginig));
+    
+}
+
+.title__courses h1{
+     margin-left: 1.5em;
+    font-size: var(--h1-fs);
+   
+}
+
+
+
+
+
+& .title__course2 h1, .title__course1 h1{
+
+    
+    font-size: var(--h1-fs);
+}
+
+
 .content__course2{
 
     
     text-align: center;
 }
+
+
+
+
+
+
+@media (width <= 70em){
+
+
+    .container__courses{
+    grid-template-columns: 1fr;
+    gap: 10em;
+}
+
+#courses{
+
+ .image__container1__courses img, .image__container2__courses img{
+ 
+        border-radius: 50%;
+        width: 25%;
+      
+    }
+
+
+    }
+}
+
+
+
+
+
+
