@@ -1,7 +1,10 @@
 @import url(./animation.css);
 
 
+#courses{
 
+    margin: 15em 0 25em 0;
+}
 
 
 .title__course1 , .title__course2  ,.content__course1, .content__course2{
@@ -193,7 +196,10 @@
 
 
 @media (width <= 70em){
+#courses{
 
+    margin: 15em 0 10em 0;
+}
 
     .container__courses{
     grid-template-columns: 1fr;

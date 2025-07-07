@@ -6,7 +6,7 @@
     & .opening{
         animation: fade linear both;
     animation-timeline: view(var(--end) var(--beginig));
-    margin: 3em 6em;
+    margin: 3em 3em;
     
 
     & h1{
